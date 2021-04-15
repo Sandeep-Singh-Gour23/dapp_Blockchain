@@ -28,7 +28,7 @@ cloudinary.config({
 const app = express()
   .use(bodyParser.json())
   .use(router)
-//  .use(cors());
+//  .use(cors()) ;
 
   .use(cors({
     credentials: true,
